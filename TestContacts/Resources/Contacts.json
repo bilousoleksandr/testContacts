@@ -1,0 +1,160 @@
+{
+"contacts" : [
+{
+"name" : "Alex",
+"lastName" : "Bilous",
+"email" : "iosDeveloper@gmail.com",
+"imageURL" : "10"
+} ,
+{
+"name" : "Matvei",
+"lastName" : "Skutarenko",
+"email" : "skutarenko@gmail.com",
+"imageURL" : "2"
+} ,
+{
+"name" : "Denis",
+"lastName" : "Pinchuk",
+"email" : "pinchuk334@gmail.com",
+"imageURL" : "3"
+} ,
+{
+"name" : "Andrei",
+"lastName" : "Iordan",
+"email" : "ubivator@gmail.com",
+"imageURL" : "1"
+} ,
+{
+"name" : "Nikolay",
+"lastName" : "Serbin",
+"email" : "erbin1996@gmail.com",
+"imageURL" : "2"
+} ,
+{
+"name" : "Okeg",
+"lastName" : "Yuchik",
+"email" : "yuchik@gmail.com",
+"imageURL" : "7"
+} ,
+{
+"name" : "Bogdan",
+"lastName" : "Mironchuk",
+"email" : "Mironchuk@gmail.com",
+"imageURL" : "6"
+} ,
+{
+"name" : "Layla",
+"lastName" : "Smirnova",
+"email" : "Smirnova@gmail.com",
+"imageURL" : "10"
+} ,
+{
+"name" : "Denis",
+"lastName" : "Nastenko",
+"email" : "NastenkoDenis@gmail.com",
+"imageURL" : "3"
+} ,
+{
+"name" : "Lilli",
+"lastName" : "Slivka",
+"email" : "SlivkaL@gmail.com",
+"imageURL" : "5"
+} ,
+{
+"name" : "Kitnith",
+"lastName" : "Garbarenko",
+"email" : "garbarenkoKit@gmail.com",
+"imageURL" : "9"
+} ,
+{
+"name" : "Lena",
+"lastName" : "Krichtop",
+"email" : "lenochkaKr@gmail.com",
+"imageURL" : "3"
+} ,
+{
+"name" : "Harry",
+"lastName" : "Potter",
+"email" : "harryPotter@gmail.com",
+"imageURL" : "2"
+} ,
+{
+"name" : "Maggy",
+"lastName" : "Bakai",
+"email" : "maggyBakai1954@gmail.com",
+"imageURL" : "2"
+} ,
+{
+"name" : "Alan",
+"lastName" : "Zaslavskiy",
+"email" : "Zaslavskiy@gmail.com",
+"imageURL" : "3"
+} ,
+{
+"name" : "Victor",
+"lastName" : "Litvinchuk",
+"email" : "LitvinchukVictor@gmail.com",
+"imageURL" : "1"
+} ,
+{
+"name" : "Aleksandr",
+"lastName" : "Gyulayn",
+"email" : "GyulaynClan@gmail.com",
+"imageURL" : "7"
+} ,
+{
+"name" : "Michael",
+"lastName" : "Dorozko",
+"email" : "DorozkoUniversal@gmail.com",
+"imageURL" : "2"
+} ,
+{
+"name" : "Sergei",
+"lastName" : "Enotov",
+"email" : "Enotov@gmail.com",
+"imageURL" : "4"
+} ,
+{
+"name" : "Mike",
+"lastName" : "White",
+"email" : "White@gmail.com",
+"imageURL" : "10"
+} ,
+{
+"name" : "Prohor",
+"lastName" : "Lepinin",
+"email" : "LepininProhor@gmail.com",
+"imageURL" : "4"
+} ,
+{
+"name" : "Valera",
+"lastName" : "Kicheryan",
+"email" : "maluchka1975@gmail.com",
+"imageURL" : "5"
+} ,
+{
+"name" : "Anna",
+"lastName" : "Smith",
+"email" : "firos@gmail.com",
+"imageURL" : "7"
+} ,
+{
+"name" : "Roman",
+"lastName" : "Havrulhyk",
+"email" : "roman2018@gmail.com",
+"imageURL" : "8"
+} ,
+{
+"name" : "Aleksei",
+"lastName" : "Dmitriev",
+"email" : "DmitrievAleks@gmail.com",
+"imageURL" : "6"
+} ,
+{
+"name" : "Karina",
+"lastName" : "Totoeva",
+"email" : "totoeva1993@gmail.com",
+"imageURL" : "7"
+}
+]
+}

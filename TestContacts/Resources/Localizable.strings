@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  TestContacts
+
+  Created by Marentilo on 05.06.2020.
+  Copyright © 2020 Marentilo. All rights reserved.
+*/
+
+"enterEmail" = "Enter email";
+"enterFirstName" = "Enter first name";
+"enterLastName" = "Enter last name";
+"contacts" = "Contacts list";
+"edit" = "Edit contact";

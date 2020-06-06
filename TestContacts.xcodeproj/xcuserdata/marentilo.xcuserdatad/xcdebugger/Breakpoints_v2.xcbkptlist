@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9C427C98-57AB-4D76-B603-C95873308BC5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED13B5A0-074E-4468-9B81-D5835A13316A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestContacts/Services/ContactsProxyService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "init(initialContactsService:storedContactsService:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ED13B5A0-074E-4468-9B81-D5835A13316A - 3b50059b5242ded7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of TestContacts.ContactsProxyServiceImplementation.init(initialContactsService: TestContacts.InitialContactsService, storedContactsService: TestContacts.ContactsStorageService) -&gt; TestContacts.ContactsProxyServiceImplementation"
+                  moduleName = "TestContacts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marentilo/Git/TestContacts/TestContacts/Services/ContactsProxyService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "21">
+               </Location>
+               <Location
+                  uuid = "ED13B5A0-074E-4468-9B81-D5835A13316A - 9e3020039f7269b4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestContacts.ContactsProxyServiceImplementation.__allocating_init(initialContactsService: TestContacts.InitialContactsService, storedContactsService: TestContacts.ContactsStorageService) -&gt; TestContacts.ContactsProxyServiceImplementation"
+                  moduleName = "TestContacts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marentilo/Git/TestContacts/TestContacts/Services/ContactsProxyService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "ED13B5A0-074E-4468-9B81-D5835A13316A - a7d9b15feb58eab1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestContacts.ContactsProxyServiceImplementation.init(initialContactsService: TestContacts.InitialContactsService, storedContactsService: TestContacts.ContactsStorageService) -&gt; TestContacts.ContactsProxyServiceImplementation"
+                  moduleName = "TestContacts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marentilo/Git/TestContacts/TestContacts/Services/ContactsProxyService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "59">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8337603-AC85-4343-8ED9-DF614CAE9665"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestContacts/Source/AppContext.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "context()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
