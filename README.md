@@ -1,7 +1,7 @@
 # testContacts
 
 List of contacts with edit | add | delete features and saving list state
-* MVVM architecute
+* MVVM architecture
 * UserDefaults for contacts storing
 * JSON file with initial contacts list
 
