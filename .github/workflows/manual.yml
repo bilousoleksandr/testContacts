@@ -33,7 +33,7 @@ jobs:
     - name: Update changelog and config
       run: |
            pwd
-           bash /Scripts/bump-version.sh ${{ github.event.inputs.build_version }}
+           bash ./Scripts/bump-version.sh ${{ github.event.inputs.build_version }}
     
     - name: Checkout new branch
       run: |
