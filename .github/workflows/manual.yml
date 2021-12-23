@@ -35,6 +35,8 @@ jobs:
     
     - name: Checkout new branch
       run: |
+           git config user.name github-actions
+           git config user.email github-actions@github.com
            git add CHANGELOG.md
            git add Configs/Common.xcconfig
            git commit -m "feat: Bump version to ${{ github.event.inputs.build_version }}"
