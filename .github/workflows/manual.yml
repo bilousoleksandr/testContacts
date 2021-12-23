@@ -41,4 +41,9 @@ jobs:
            git add CHANGELOG.md
            git add Configs/Common.xcconfig
            git commit -m "feat: Bump version to ${{ github.event.inputs.build_version }}"
-           git push -u origin "release/desktop-${{ github.event.inputs.build_version }}"
+           git push -u origin "release/desktop-${{ github.event.inputs.build_version }}"                
+    
+    - name: Checkout new branch
+      run: |
+          gh pr create --base master --head "release/desktop-${{ steps.extract_branch.outputs.branch }}" --title "[Release] Desktop ${{ github.event.inputs.build_version }}"
+          gh pr create --base develop --head "release/desktop-${{ steps.extract_branch.outputs.branch }}" --title "Bump version to ${{ github.event.inputs.build_version }}"
