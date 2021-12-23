@@ -1,0 +1,21 @@
+# This is a basic workflow that is manually triggered
+
+name: Manual workflow
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+    inputs:
+      build_version:
+        description: 'New build version'
+        required: true
+
+jobs:
+  create_release_branches:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Runs a single command using the runners shell
+    - name: Send greeting
+      run: echo "Hello ${{ github.event.inputs.build_version }}"
