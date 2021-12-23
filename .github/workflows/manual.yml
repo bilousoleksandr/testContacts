@@ -29,7 +29,8 @@ jobs:
           
     - name: Update changelog and config
       run: |
-           chmod -x /Scripts/bump-version.sh
+           pwd
+           chmod -x ./Scripts/bump-version.sh
            ./Scripts/bump-version.sh ${{ github.event.inputs.build_version }}
     
     - name: Checkout new branch
