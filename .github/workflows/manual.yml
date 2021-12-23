@@ -41,5 +41,5 @@ jobs:
       run: |
            git add CHANGELOG.md
            git add Configs/Common.xcconfig
-           git commit -m "feat: Bump version to ${{ ggithub.event.inputs.build_version }}""
+           git commit -m "feat: Bump version to ${{ github.event.inputs.build_version }}""
            git push -u origin "release/desktop-${{ github.event.inputs.build_version }}"
