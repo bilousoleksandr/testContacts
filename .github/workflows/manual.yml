@@ -28,8 +28,9 @@ jobs:
           git checkout -b "release/desktop-${{ github.event.inputs.build_version }}"
           
     - name: Update changelog and config
-      run: ./Scripts/bump-version.sh ${{ github.event.inputs.build_version }}
-      shell: bash  
+      run: |
+           chmod -x /Scripts/bump-version.sh
+           ./Scripts/bump-version.sh ${{ github.event.inputs.build_version }}
     
     - name: Checkout new branch
       run: |
