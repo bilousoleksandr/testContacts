@@ -15,16 +15,15 @@ jobs:
   create_release_branches:
     runs-on: ubuntu-latest
     steps:
-
-    - name: Set Git config
-      run: |
-           git config --local user.email "action@github.com"
-           git config --local user.name "GitHub Action"
-   
     - name: Checkout branch
       uses: actions/checkout@v2
       with:
         path: develop
+    
+    - name: Set Git config
+      run: |
+           git config --local user.email "action@github.com"
+           git config --local user.name "GitHub Action"
         
     - name: Print variables
       run: echo "Hello ${{ github.event.inputs.build_version }}"
