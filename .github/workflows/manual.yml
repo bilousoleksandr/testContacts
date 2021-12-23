@@ -14,8 +14,34 @@ on:
 jobs:
   create_release_branches:
     runs-on: ubuntu-latest
-
     steps:
-    # Runs a single command using the runners shell
-    - name: Send greeting
+
+    - name: Set Git config
+      run: |
+           git config --local user.email "action@github.com"
+           git config --local user.name "GitHub Action"
+   
+    - name: Checkout branch
+      uses: actions/checkout@v2
+      with:
+        path: develop
+        
+    - name: Print variables
       run: echo "Hello ${{ github.event.inputs.build_version }}"
+    
+    - name: Checkout new branch
+      run: |
+          git checkout -b "release/desktop-${{ github.event.inputs.build_version }}
+          
+    - name: Update changelog and config
+      run: ./Scripts/bump-version.sh ${{ github.event.inputs.build_version }}
+      shell: bash  
+    
+    - name: Checkout new branch
+      run: |
+          git add CHANGELOG.md
+          git add Configs/Common.xcconfig
+          git commit -m "feat: Bump version to ${{ ggithub.event.inputs.build_version }}""
+          git push -u origin "release/desktop${{ github.event.inputs.build_version }}-to-develop"
+      
+      
