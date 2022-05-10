@@ -22,7 +22,7 @@ final class SafariUITests: XCTestCase {
     }
     func testLaunchSafariAndWait() {
         let isForeground = application.wait(for: .runningForeground, timeout: 20)
-        let button = application.toolbars.firstMatch.buttons["OneStepBookmarkingButton"]
+        let button = application.toolbars.firstMatch.buttons["Go back"]
         
         XCTAssertTrue(isForeground)
         XCTAssertTrue(button.isHittable)
