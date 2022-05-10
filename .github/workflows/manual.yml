@@ -31,10 +31,7 @@ jobs:
           git checkout -b "release/desktop-${{ github.event.inputs.build_version }}"
           
     - name: Update changelog and config
-      run: |
-           pwd
-           chmod +x ./Scripts/bump-version.sh
-           ./Scripts/bump-version.sh ${{ github.event.inputs.build_version }}
+      run: bash ./Scripts/bump-version.sh ${{ github.event.inputs.build_version }}
     
     - name: Checkout new branch
       run: |
@@ -47,5 +44,6 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-          gh pr create --base master --head "release/desktop-${{ github.event.inputs.build_version }}" --title "[Release] Desktop ${{ github.event.inputs.build_version }}"
-          gh pr create --base develop --head "release/desktop-${{ github.event.inputs.build_version }}" --title "Bump version to ${{ github.event.inputs.build_version }}"
+          git status
+          gh pr create --base master --head "release/desktop-${{ github.event.inputs.build_version }}" --title "[Release] Desktop ${{ github.event.inputs.build_version }}" --body "Discovery release"
+          gh pr create --base develop --head "release/desktop-${{ github.event.inputs.build_version }}" --title "Bump version to ${{ github.event.inputs.build_version }}" --body "Merge bumb version to develop"
