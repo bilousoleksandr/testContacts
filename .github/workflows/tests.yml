@@ -3,7 +3,11 @@
 name: macOS Tests
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
+    inputs:
+      build_version:
+        description: 'New build version'
+        required: false
 
 jobs:
   build:
