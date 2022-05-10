@@ -10,11 +10,21 @@ import XCTest
 
 final class SafariUITests: XCTestCase {
     private let application = XCUIApplication(bundleIdentifier: "com.apple.Safari")
-
-    func testLaunchSafariAndWait() {
+    
+    override func setUp() {
+        super.setUp()
         application.launch()
-        let isForeground = application.wait(for: .runningForeground, timeout: 20)
-        XCTAssertTrue(isForeground)
+    }
+
+    override func tearDown() {
+        super.tearDown()
         application.terminate()
+    }
+    func testLaunchSafariAndWait() {
+        let isForeground = application.wait(for: .runningForeground, timeout: 20)
+        let button = application.toolbars.firstMatch.buttons["OneStepBookmarkingButton"]
+        
+        XCTAssertTrue(isForeground)
+        XCTAssertTrue(button.isHittable)
     }
 }
