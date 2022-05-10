@@ -1,10 +1,6 @@
-name: iOS starter workflow
+# This is a basic workflow that is manually triggered
 
-on:
-  push:
-    branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
+name: Manual workflow
 
 jobs:
   build:
