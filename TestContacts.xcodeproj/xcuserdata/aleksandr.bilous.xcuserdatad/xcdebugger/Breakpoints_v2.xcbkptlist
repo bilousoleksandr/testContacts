@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "116F224A-DC18-4683-BF75-DDCE08C84BC5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9103E7C0-624B-46FF-BF94-84750008C894"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestMacosUITests/SafariUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "testLaunchSafariAndWait()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D186792-5B98-4267-BD1F-558915D4B4F6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestMacosUITests/SafariUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "testLauncher()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0D186792-5B98-4267-BD1F-558915D4B4F6 - 9ae8168d9d7995f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestMacosUITests.SetappDiscoveryTests.testLaunchSafariAndWait() -&gt; ()"
+                  moduleName = "TestMacosUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandr.bilous/Work/testContacts/TestMacosUITests/SafariUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "571">
+               </Location>
+               <Location
+                  uuid = "0D186792-5B98-4267-BD1F-558915D4B4F6 - 546ed78cf732d1a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestMacosUITests.SetappDiscoveryTests.testLauncher() -&gt; ()"
+                  moduleName = "TestMacosUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandr.bilous/Work/testContacts/TestMacosUITests/SafariUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1151">
+               </Location>
+               <Location
+                  uuid = "0D186792-5B98-4267-BD1F-558915D4B4F6 - 546ed78cf732d1a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestMacosUITests.SetappDiscoveryTests.testLauncher() -&gt; ()"
+                  moduleName = "TestMacosUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandr.bilous/Work/testContacts/TestMacosUITests/SafariUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
