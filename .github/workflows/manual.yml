@@ -18,8 +18,8 @@ jobs:
     - name: Checkout branch
       uses: actions/checkout@v2
       with:
-        fetch-depth: 0
-        ref: develop
+        fetch-depth: 1
+        ref: {{ github.ref }}
         
     - name: Update git config
       run: |
