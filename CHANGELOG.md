@@ -8,6 +8,16 @@
 
 #### Boring stuff
 
+## 2.0.0 (08,Aug 2022)
+
+#### New
+
+#### Updated
+
+#### Fixed
+
+#### Boring stuff
+
 ## 2.3.0 (23,Dec 2021)
  
 #### New
